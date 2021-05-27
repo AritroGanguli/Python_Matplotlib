@@ -13,3 +13,6 @@ def hist_plot_of_normal_distribution():
         ylabel='Bin Count', xlabel='X1')
   ax.hist(x1, bins=30)
   plt.savefig('histogram_norma.png')
+
+if __name__ == '__main__':
+  hist_plot_of_normal_distribution()
