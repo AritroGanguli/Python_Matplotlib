@@ -15,3 +15,6 @@ def generate_figure():
     axes2 = plt.subplot(2, 1, 2, title='Sin(4*pi*x)', sharex=axes1, sharey=axes1)
     axes2.plot(t,s2)
     plt.savefig('figure.png')
+
+if __name__ == '__main__':
+  generate_figure()
